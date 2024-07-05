@@ -1,0 +1,34 @@
+{
+  "name": "fua.typescript.template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "files": [
+    "src/*",
+    "dist/*"
+  ],
+  "dependencies": {
+    "tslib": "^2.6.3"
+  },
+  "devDependencies": {
+    "expect": "^26.6.2",
+    "rimraf": "^5.0.7",
+    "ts-mocha": "^10.0.0",
+    "typescript": "^5.5.3"
+  },
+  "scripts": {
+    "test": "ts-mocha",
+    "prepare": "rimraf dist & tsc --removeComments && tsc --declaration --emitDeclarationOnly"
+  },
+  "mocha": {
+    "bail": false,
+    "recursive": false,
+    "spec": "test/*.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@git02.int.nsc.ag:10022/research/fua/template/typescript.git"
+  },
+  "author": "spetrac@nicos-ag.com",
+  "license": "UNLICENSED"
+}
