@@ -5,7 +5,7 @@ import * as temp from '../src/index'
 describe('typescript.template', () => {
 
     test('develop', () => {
-        expect(temp).not.toBeNull()
+        expect(temp).toBeNotNull()
         console.log(temp)
     })
 
