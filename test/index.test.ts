@@ -1,12 +1,12 @@
-import {describe, test} from 'mocha'
+import { describe, test } from 'mocha'
 import expect from 'expect'
 import * as temp from '../src/index'
 
-describe('typescript.template', () => {
+describe('template.typescript', () => {
 
-    test('develop', () => {
-        expect(temp).not.toBeNull()
-        console.log(temp)
-    })
+  test('develop', () => {
+    expect(temp).not.toBeNull()
+    console.log(temp)
+  })
 
 })

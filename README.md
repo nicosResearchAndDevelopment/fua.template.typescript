@@ -1,1 +1,1 @@
-# @nrd/fua.typescript.template
+# @fua/template.typescript
