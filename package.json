@@ -1,5 +1,5 @@
 {
-  "name": "@fua/template.typescript",
+  "name": "@fua/module.TEMPLATE",
   "version": "0.0.0-dev",
   "description": "",
   "main": "dist/index.js",
@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com:nicosResearchAndDevelopment/fua.template.typescript.git"
+    "url": "ssh://git@github.com:nicosResearchAndDevelopment/fua.module.TEMPLATE.git"
   },
   "author": "Simon Petrac <pfoerdie@gmail.com>",
   "license": "MIT"
